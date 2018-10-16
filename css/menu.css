@@ -1,0 +1,123 @@
+/* DOCUMENTATION CSS3 */
+
+a {
+   text-decoration: none; 
+}
+
+a.ref{
+    color:rgba(255, 255, 255, 0.79);
+    text-decoration:none;
+    text-shadow:1px 1px 1px #000;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+
+a.ref:hover{
+    color:#000;
+}
+
+a.back{
+    width:184px;
+    height:32px;
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    background:transparent url(../back.png) no-repeat top left;
+}
+
+ul#menu{
+    margin-left: 180px;
+    list-style:none;
+    position:absolute;
+    bottom:0px;
+    font-size:20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color:#999;
+    letter-spacing: 2px;
+}
+
+ul#menu li{
+    float:left;
+    margin:0px 10px 0px 0px;
+}
+
+ul#menu a{
+    cursor:pointer;
+    position:relative;
+    float:center;
+    bottom:-95px;
+    line-height:20px;
+    width:210px;
+}
+
+ul#menu div.title{
+    display:block;
+    height:26px;
+    text-shadow:3px 3px 1px #000;
+    color:#ffffff;
+    text-indent:10px;
+}
+
+ul#menu div.description{
+    width:160px;
+	height:80px;
+    border:3px solid #fff;
+    color:#fff;
+    display:block;
+    font-size:14px;
+    padding:10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    -moz-box-shadow:1px 1px 6px #000;   
+    -webkit-box-shadow:1px 1px 6px #000;
+    box-shadow:1px 1px 6px #000;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+
+/* MENU, CORES E ESTILOS */
+
+#title_menu {
+    font-family: inherit;
+}
+
+#color_menu01 {
+    background-color: rgba(222, 56, 34, 0.5);
+}
+
+#color_menu02 {
+    background-color: rgba(55, 188, 55, 0.5);
+}
+
+#color_menu03 {
+    background-color: rgba(178, 53, 159, 0.5);
+}
+
+#color_menu04 {
+    background-color: rgba(212, 109, 20, 0.5);
+}
+
+
+#color_menu01:hover {
+    background-color: #be1d07;
+}
+
+#color_menu02:hover {
+    background-color: #057605;
+}
+
+#color_menu03:hover {
+    background-color: #712565;
+}
+
+#color_menu04:hover {
+    background-color: #a53005;
+}
+
+ul#menu a:hover div.title{
+    color:#54504F;
+}
+
